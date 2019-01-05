@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '#lbd_(9$dgk&zc&nm_d5zub+zj@5im*tec*z8!96=a^&hy94d$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True    # 나중에 False로 바꿔야함
 
 ALLOWED_HOSTS = []
 
@@ -54,7 +54,9 @@ ROOT_URLCONF = 'sample.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, "templates") # , 찍고 템플릿 계속 추가하면돼
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

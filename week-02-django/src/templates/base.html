@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{% load staticfiles %}
+{% load static %}
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>{% block title %} sample {% endblock %}</title>
+    <title>{% block title %} sample.. {% endblock %}</title>
+    <link rel="stylesheet" href='{% static "css/base.css" %}'>
   </head>
   <body>
+    제목!!!
     {% block body %}{% endblock %}
   </body>
 </html>

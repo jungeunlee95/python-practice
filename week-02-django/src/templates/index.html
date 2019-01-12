@@ -8,6 +8,10 @@
   <div class="colorful-text">hello world, Mike</div> -->
   <div>hello world, jungeun</div>
   <div>hello world, Jay!!</div>
-  <div
+
+  {% for article in article_list %}
+    <div>{{article.title}}</div>
+  {% endfor %}
+
 </div>
 {% endblock %}

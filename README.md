@@ -1,4 +1,4 @@
-# Python 프로젝트
+# Python
 
-### 6주 안에 django 프로젝트 만들어 보기
+### django 프로젝트 만들어 보기
 

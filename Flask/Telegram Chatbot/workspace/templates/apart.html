@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>부동산 모아보기</title>
+    </head>
+    <body>
+        <h2>너 지금 지역 찾았어?</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>위치</th>
+                    <th>아파트이름</th>
+                    <th>아파트크기</th>
+                    <th>실거래가</th>
+                    <th>실거래월</th>
+                    <th>실거래일</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for dddd in t: %}
+                <tr>
+                    <td>{{ dddd["location"] }}</td>
+                    <td>{{ dddd["apart_name"] }}</td>
+                    <td>{{ dddd["apart_size"] }}</td>
+                    <td>{{ dddd["apart_cost"] }}</td>
+                    <td>{{ dddd["month"] }}</td>
+                    <td>{{ dddd["date"] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>

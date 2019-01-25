@@ -1,0 +1,60 @@
+.card-text1{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.card-margin{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.movie_subtitle{
+    text-align: center;
+    margin: 3rem;
+    margin-bottom: 18px;
+}
+
+.layout-background {
+    background-image:url(assets/movie-918655_1920.jpg);
+    height: 350px;
+    margin-top: 60px;
+  }
+
+.layout-text{
+    color: white;
+    text-align: center; 
+    background-color:rgba(37, 34, 34, 0.5);
+}
+
+.layout_font{
+    /* font-family: 'Black Han Sans', sans-serif; */
+    /* font-family: 'Poor Story', cursive; */
+    color: rgb(252, 252, 252);
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#header{ 
+    height:350px; 
+    width:100%; 
+    background-image:url(assets/movie-918655_1920.jpg);
+} 
+
+#footer{ 
+    height:50px; 
+    width:100%; 
+    background-color: dimgrey;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-family: 'Reenie Beanie', cursive;
+} 
+
+.container_margin{
+    padding: 60px 0px;
+
+}

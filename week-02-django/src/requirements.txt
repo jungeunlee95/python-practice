@@ -1,2 +1,0 @@
-Django==1.10.4
-virtualenv==16.1.0
